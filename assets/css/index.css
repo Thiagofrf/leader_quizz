@@ -47,3 +47,26 @@ body {
     font-size: 20px;
 }
 
+.answerNumber {
+    background-color: #0C479D;
+    width: 4rem;
+    color: white;
+    font-weight: bold;
+}
+
+.answerText {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.answerOnly {
+    transition: box-shadow .3s;
+    box-shadow: 0 0 7px rgba(33,33,33,.2);
+}
+
+.answerOnly:hover {
+    box-shadow: 0 0 20px #4992ff; 
+    cursor: pointer;
+
+}
+
